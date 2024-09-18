@@ -1,0 +1,16 @@
+{
+  "name": "initial_testcase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "D": "^1.0.0",
+    "jest": "^29.7.0"
+  }
+}
