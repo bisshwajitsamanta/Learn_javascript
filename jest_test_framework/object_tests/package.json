@@ -1,0 +1,12 @@
+{
+  "name": "object_tests",
+  "version": "1.0.0",
+  "main": "object_name.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

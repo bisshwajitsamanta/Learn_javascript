@@ -27,4 +27,9 @@
         console.log("Hello World !")
      }   
 ```
-* 
+* jest test coverage
+```
+"scripts": {
+    "test": "jest --watchAll --coverage "
+  },
+```
