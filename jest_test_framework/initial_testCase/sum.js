@@ -2,4 +2,11 @@ function sum() {
     return 1+2
 }
 
-module.exports = sum
+function ParameterizedSum(a,b){
+    return a+b
+}
+
+module.exports = {
+    sum,
+    ParameterizedSum
+}
