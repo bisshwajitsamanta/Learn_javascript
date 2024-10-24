@@ -16,6 +16,12 @@ const loadScript = (src) =>{
 let p1 = loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
 p1.then(value => {
     console.log(value)
+    return loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
+}).then((value)=>{
+    console.log("Second script Running !!")
+}).then((value)=>{
+    console.log("Third script Running !!")
+    return loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
 }).catch((error)=>{
     console.log("We are sorry unable to resolve the endpoint " + error)
 })
