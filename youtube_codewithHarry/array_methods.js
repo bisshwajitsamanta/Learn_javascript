@@ -1,0 +1,16 @@
+let num = [1,2,3,4,45,21]
+console.log(num)
+let b = num.toString()
+console.log(typeof num)
+console.log(b, typeof b)
+let c = num.join("_")
+console.log(c, typeof c)
+num.pop()
+console.log(num)
+console.log(num.shift())
+console.log(num)
+let a = [7,2,4,5]
+a.push(9)
+console.log(a)
+console.log(a.unshift(11))
+console.log(a)
