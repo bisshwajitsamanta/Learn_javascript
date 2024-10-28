@@ -7,8 +7,8 @@ class RailwayTicketSystem {
         console.log(this.name + ": Form Cancelled: !!" + this.trainNo)
     }
     fill (name,trainNo){
-        this.name = name
-        this.trainNo = trainNo
+        this.name = name // this keyword sets the value to individual instances of the class e.g bisshwajit instance name, train No.
+        this.trainNo = trainNo // this keyword sets the value to individual instances of the class e.g payelh instance  name, train No.
     }
 }
 
