@@ -1,0 +1,15 @@
+name ="Bisshwajit"
+newName = " Samanta"
+console.log("Length of the name",name.length)
+console.log(name[0])
+console.log(name[name.length -1])
+console.log("Hello \rWorld")
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.slice(2,name.length -2))
+console.log(name.slice(2,4))
+console.log(name.slice(2))
+console.log(name.replace("Biss","Piss"))
+console.log(newName.trim())
+console.log(name + newName)
+console.log(name.concat(" is a friend of ", newName.trim()))
