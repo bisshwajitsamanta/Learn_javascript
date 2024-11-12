@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS", // Use CommonJS for Jest compatibility
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["jest", "node"], // Include Jest types
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
